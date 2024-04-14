@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Arte Hip Hop de los 90</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Galería de Arte Hip Hop de los 90</h1>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#murales">Murales</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="inicio">
+    <h2>Bienvenido a nuestra galería de arte hip hop de los 90</h2>
+    <p>Descubre una colección única de obras de arte que capturan la esencia del hip hop de la costa oeste de los años 90. Desde murales callejeros hasta graffitis vibrantes y fotografías icónicas, nuestra galería te transportará a una época de creatividad sin límites y expresión artística auténtica.</p>
+    <p>Los años 90 fueron una era dorada para el hip hop, donde artistas como Tupac Shakur, The Notorious B.I.G., Dr. Dre y Snoop Dogg dominaron la escena musical. El arte urbano también floreció durante este tiempo, con grafiteros y muralistas dejando su huella en las calles de las ciudades.</p>
+    <p>Explora nuestra galería y déjate inspirar por la rica historia y la cultura vibrante del hip hop de los 90.</p>
+    <img src="BANNER2.png" alt="Banner2">
+</section>
+
+<section id="murales" class="hidden">
+    <h2>Murales</h2>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="murales/mural1.jpeg" alt="Mural 1">
+        </div>
+        <div class="gallery-item">
+            <img src="murales/mural2.jpeg" alt="Mural 2">
+        </div>
+        <div class="gallery-item">
+            <img src="murales/mural3.jpeg" alt="Mural 3">
+        </div>
+        <div class="gallery-item">
+            <img src="murales/mural4.png" alt="Mural 4">
+        </div>
+        <div class="gallery-item">
+        <img src="murales/mural5.png" alt="Mural 5">
+        </div>
+        <div class="gallery-item">
+            <img src="murales/mural6.png" alt="Mural 6">
+    </div>
+
+    </div>
+</section>
+
+<section id="contacto" class="hidden">
+    <h2>Contacto</h2>
+    <p> A continuación podrás dejarnos tu información de contacto con alguna duda, queja, sugerencia o aporte para seguir mejorando dia a dia nuestra galeria, agradecemos tu interes.</p>
+    <form  method="post">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" pattern="[0-9]+" title="Por favor ingresa solo números">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Galería de Arte Hip Hop de los 90 - BARIASP</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
